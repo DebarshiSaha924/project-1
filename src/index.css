@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-icon {
+    @apply h-6 w-6 cursor-pointer hover:scale-110 transition-transform;
+  }
+}
+
+body {
+  @apply bg-gray-50;
+}
